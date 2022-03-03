@@ -4,7 +4,7 @@
 
 This app is a single-page application that meets PWA criteria. When used, it allows clients to type code on their browser and it is saved and reloaded upon refresh. The name "Text Me Later" is inspired by the fact that it is available to be installed and used offline! 
 
-## [Try it yourself!](https://young-gorge-61076.herokuapp.com/)
+## [Try it yourself!]()
 
 ## Installation
 
