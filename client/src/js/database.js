@@ -22,7 +22,7 @@ export const putDb = async (content) => {
   const result = await request;
 
   if(!result) {
-    console.error('putDb not implemented')
+    console.log('putDb not implemented')
   } else {
     console.log('🚀 - data saved to the database', result);
   }
