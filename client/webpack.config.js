@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Just Another Text Editor'
+        title: 'Text Me Later'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
@@ -29,11 +29,11 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Just Another Text Editor',
+        name: 'Text Me Later',
         short_name: 'JATE',
         description: 'Edit texts offline!',
-        background_color: '#225ca3',
-        theme_color: '#225ca3',
+        background_color: '#096abd',
+        theme_color: '#096abd',
         start_url: '/',
         publicPath: '/',
         icons: [
